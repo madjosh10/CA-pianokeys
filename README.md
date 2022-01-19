@@ -4,44 +4,44 @@ Project in JavaScript
 
 ### Create an Interactive Piano Game
 
-- [x] At the beginning of the code, we have variable name assignments for the keys array and the notes array. There is also a function looping through the elements of the keys array and pushing them to the notes array.
+- [x] 1. At the beginning of the code, we have variable name assignments for the keys array and the notes array. There is also a function looping through the elements of the keys array and pushing them to the notes array.
 
 After the second comment, create a function named keyPlay that changes the background color of the keys when they are pressed down.
 
 Be sure to use the .target property in the function because the target is being modified in this case.
 
-- [] Next, create a function named keyReturn that returns the background color of the keys to their default with an empty string '' when the mouse is released on the element. Be sure to use the .target property.
+- [] 2. Next, create a function named keyReturn that returns the background color of the keys to their default with an empty string '' when the mouse is released on the element. Be sure to use the .target property.
 
-- [] Now that you have created two functions that change the color of the key elements, you must assign them as the values of event handler properties.
+- [] 3. Now that you have created two functions that change the color of the key elements, you must assign them as the values of event handler properties.
 
 Create a named function and leave the code block blank for now. This function will be used later on to assign events to the keys, so it should take one parameter — you can call it note.
 
-- [] Inside the function, create an event handler that runs the keyPlay as an event handler when a mousedown event fires on any note.
+- [] 4. Inside the function, create an event handler that runs the keyPlay as an event handler when a mousedown event fires on any note.
 
-- [] Inside the function, create a second event handler property that runs the keyReturn when a mouseup event fires on any note.
+- [] 5. Inside the function, create a second event handler property that runs the keyReturn when a mouseup event fires on any note.
 
-- []At the beginning of the code, we have variable name assignments for the keys array and the empty notes array. There is also a function looping through the keys array and pushing the keys elements to the notes array to be assigned a variable name.
+- [] 6. At the beginning of the code, we have variable name assignments for the keys array and the empty notes array. There is also a function looping through the keys array and pushing the keys elements to the notes array to be assigned a variable name.
 
 Now, you must create a .forEach loop that will pass the elements in the notes array through your event assignment function.
 
-- []Now, the program knows what to do when each piano key has a mousedown or mouseup event fired on it. Run your code and see how it works!
+- [] 7. Now, the program knows what to do when each piano key has a mousedown or mouseup event fired on it. Run your code and see how it works!
 
-- []Next, there are variables that represent the progress buttons in the song box below that allow students to progress the piano.
+- [] 8. Next, there are variables that represent the progress buttons in the song box below that allow students to progress the piano.
 
-The nextOne, nextTwo, nextThree, and startOver change the lyrics and musical notes of the song to help the student play along. In the beginning of the song the only button the student needs is nextOne. Because of this the .hidden properties of the other buttons are assigned the value of true.
+    The nextOne, nextTwo, nextThree, and startOver change the lyrics and musical notes of the song to help the student play along. In the beginning of the song the only button the student needs is nextOne. Because of this the .hidden properties of the other buttons are assigned the value of true.
 
-Now you must create events on all the progress buttons. First, create an event handler property with a click event on the nextOne element.
+    Now you must create events on all the progress buttons. First, create an event handler property with a click event on the nextOne element.
 
-- []To begin modifying the song box, you must switch the progress buttons first.
+- [] 9. To begin modifying the song box, you must switch the progress buttons first.
 
-Using an anonymous event handler function, make the following changes to the button that appears after nextOne is clicked:
-    1.) Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
-    2.) Hide the nextOne button by changing the .hidden property to hide the nextOne button.
+    Using an anonymous event handler function, make the following changes to the button that appears after nextOne is clicked:
+        1.) Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
+        2.) Hide the nextOne button by changing the .hidden property to hide the nextOne button.
 
-- [] Next, a click event firing on the nextOne must change the music notes that guide the piano student through the song.
+- [] 10. Next, a click event firing on the nextOne must change the music notes that guide the piano student through the song.
 
-Add the following changes to the nextOne event handler function so the musical notes change when the button is clicked.
-    1.) Change the content of the element with an ID of letter-note-five to D.
-    2.) Change the content of the element with an ID of letter-note-six to C.
+    Add the following changes to the nextOne event handler function so the musical notes change when the button is clicked.
+        1.) Change the content of the element with an ID of letter-note-five to D.
+        2.) Change the content of the element with an ID of letter-note-six to C.
 
-- [] Create another event handler property with a click event on the button element called nextTwo. Then assign the property to the value of an anonymous event handler function.
+- [] 11. Create another event handler property with a click event on the button element called nextTwo. Then assign the property to the value of an anonymous event handler function.
