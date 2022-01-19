@@ -73,14 +73,14 @@ Project in JavaScript
     3. Change the content of the element with an ID of letter-note-five to C.
     4. Change the content of the element with an ID of letter-note-six to B.
 
-- [] 16. Create an event handler property with a click event on the nextThree element.
+- [x] 16. Create an event handler property with a click event on the nextThree element.
 
-- [] 17. Using an anonymous event handler function, make the following changes to the button that appears when nextThree is clicked:
+- [x] 17. Using an anonymous event handler function, make the following changes to the button that appears when nextThree is clicked:
 
     1. Reveal the startOver button by changing the .hidden property to make the startOver button appear.
     2. Hide the nextThree button by changing the .hidden property to hide the nextThree button.
 
-- [] 18. Add the following changes to the nextThree event handler function so the lyrics change when this button is clicked.
+- [x] 18. Add the following changes to the nextThree event handler function so the lyrics change when this button is clicked.
 
     1. Change the content of the element with an ID of word-one to HAP-.
     2. Change the content of the element with an ID of word-two to PY.
@@ -89,7 +89,7 @@ Project in JavaScript
     5. Change the content of the element with an ID of word-five to TO.
     6. Change the content of the element with an ID of word-six to YOU!.
 
-- [] 19. Add the following changes to the nextThree event handler function so the musical notes change when the button is clicked.
+- [x] 19. Add the following changes to the nextThree event handler function so the musical notes change when the button is clicked.
 
     1. Change the content of the element with an ID of letter-note-one to F.
     2. Change the content of the element with an ID of letter-note-two to F.
@@ -98,8 +98,8 @@ Project in JavaScript
     5. Change the content of the element with an ID of letter-note-five to D.
     6. Change the content of the element with an ID of letter-note-six to C.
 
-- [] 20. Now you have the lyricsHAP-PY BIRTH-DAY TO YOU! -END — that couldn’t be right! To finish the line you must get rid of the “-end” in the song box.
+- [x] 20. Now you have the lyricsHAP-PY BIRTH-DAY TO YOU! -END — that couldn’t be right! To finish the line you must get rid of the “-end” in the song box.
 
     Add a statement to the event handler function for nextThree that changes the display property of lastLyric back to 'none'. 
 
-- [] 21. Congrats, you’ve completed the Piano Player! Play around with the piano and the song box to fire all the events.
+- [x] 21. Congrats, you’ve completed the Piano Player! Play around with the piano and the song box to fire all the events.
