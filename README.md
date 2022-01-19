@@ -35,13 +35,71 @@ Project in JavaScript
 - [x] 9. To begin modifying the song box, you must switch the progress buttons first.
 
     Using an anonymous event handler function, make the following changes to the button that appears after nextOne is clicked:
-        1.) Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
-        2.) Hide the nextOne button by changing the .hidden property to hide the nextOne button.
+    1. Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
+    2. Hide the nextOne button by changing the .hidden property to hide the nextOne button.
 
 - [x] 10. Next, a click event firing on the nextOne must change the music notes that guide the piano student through the song.
 
     Add the following changes to the nextOne event handler function so the musical notes change when the button is clicked.
-        1.) Change the content of the element with an ID of letter-note-five to D.
-        2.) Change the content of the element with an ID of letter-note-six to C.
+    1. Change the content of the element with an ID of letter-note-five to D.
+    2. Change the content of the element with an ID of letter-note-six to C.
 
 - [x] 11. Create another event handler property with a click event on the button element called nextTwo. Then assign the property to the value of an anonymous event handler function.
+
+- [x] 12. Make the following changes to the button that appears when nextTwo is clicked:
+
+    Reveal the nextThree button by changing the .hidden property to make the nextThree button appear.
+    Hide the nextTwo button by changing the .hidden property to hide the nextTwo button.
+
+- [x] 13. Once the student has reached this point of the Happy Birthday song the lyrics changes from HAP-PY BIRTH-DAY TO YOU to HAP-PY BIRTH-DAY DEAR FRI-END.
+
+    Make the make the following changes to the lyrics in the function when the button is clicked:
+
+    1. Change the content of the element with an ID of word-five to DEAR.
+    2. Change the content of the element with an ID of word-six to FRI-.
+
+- [x] 14. Now you have the lyrics HAP-PY BIRTH-DAY DEAR FRI-. To finish the line, you must add the -END to the song box under the piano.
+
+    The -END element is stored in the lastLyric variable.
+
+    Add a statement to the event handler function for nextTwo that changes the display property of lastLyric to 'inline-block'.
+
+- [x] 15. A click event firing on the second button must also change the music notes to guide the piano student through the song.
+
+    Add the following changes to the nextTwo event handler function so the musical notes change when the button is clicked:
+
+    1. Change the content of the element with an ID of letter-note-three to G.
+    2. Change the content of the element with an ID of letter-note-four to E.
+    3. Change the content of the element with an ID of letter-note-five to C.
+    4. Change the content of the element with an ID of letter-note-six to B.
+
+- [] 16. Create an event handler property with a click event on the nextThree element.
+
+- [] 17. Using an anonymous event handler function, make the following changes to the button that appears when nextThree is clicked:
+
+    1. Reveal the startOver button by changing the .hidden property to make the startOver button appear.
+    2. Hide the nextThree button by changing the .hidden property to hide the nextThree button.
+
+- [] 18. Add the following changes to the nextThree event handler function so the lyrics change when this button is clicked.
+
+    1. Change the content of the element with an ID of word-one to HAP-.
+    2. Change the content of the element with an ID of word-two to PY.
+    3. Change the content of the element with an ID of word-three to BIRTH.
+    4. Change the content of the element with an ID of word-four to DAY
+    5. Change the content of the element with an ID of word-five to TO.
+    6. Change the content of the element with an ID of word-six to YOU!.
+
+- [] 19. Add the following changes to the nextThree event handler function so the musical notes change when the button is clicked.
+
+    1. Change the content of the element with an ID of letter-note-one to F.
+    2. Change the content of the element with an ID of letter-note-two to F.
+    3. Change the content of the element with an ID of letter-note-three to E.
+    4. Change the content of the element with an ID of letter-note-four to C.
+    5. Change the content of the element with an ID of letter-note-five to D.
+    6. Change the content of the element with an ID of letter-note-six to C.
+
+- [] 20. Now you have the lyricsHAP-PY BIRTH-DAY TO YOU! -END — that couldn’t be right! To finish the line you must get rid of the “-end” in the song box.
+
+    Add a statement to the event handler function for nextThree that changes the display property of lastLyric back to 'none'. 
+
+- [] 21. Congrats, you’ve completed the Piano Player! Play around with the piano and the song box to fire all the events.
